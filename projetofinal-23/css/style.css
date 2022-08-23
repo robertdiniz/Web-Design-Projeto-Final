@@ -1,0 +1,153 @@
+:root {
+  --cor--black: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--cor--black);
+}
+
+/* LOGO */
+.container > a > img {
+  width: 72px;
+}
+
+/* FORM */
+.form {
+  padding: 4px 16px;
+  border-radius: 16px;
+  outline: none;
+  border: none;
+  background-image: url(../img/lupa.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-x: 96%;
+  background-size: 24px;
+}
+
+/* LOGIN AND SIGN UP */
+.container > nav > ul > li > a {
+  color: black;
+}
+
+.container > nav > ul > li > a:hover {
+  color: black;
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+.container > nav > ul {
+  display: flex;
+}
+
+.container > nav > ul > li {
+  margin-right: 8px;
+  color: white;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 16px;
+  padding: 4px 8px;
+}
+
+/* INDEX */
+/* MAIN */
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* PART ONE */
+.part-one {
+  margin-top: 32px;
+  width: 800px;
+}
+
+.part-one h1 {
+  font-size: 32px;
+}
+
+.call {
+  opacity: 50%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.call-two {
+  font-size: 24px;
+  width: 600px;
+}
+
+.part-one > img {
+  float: right;
+}
+
+/* PART TWO */
+.part-two {
+  margin-top: 32px;
+  width: 232px;
+  height: 250px;
+  background-color: #DBDBDB;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.part-two > p {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.plans {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background: rgb(0,0,0);
+  background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(154,151,151,1) 100%);
+  padding: 32px;
+  padding-bottom: 200px;
+}
+
+.buy {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 16px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.buy > p {
+  font-weight: bold;
+}
+
+.plans > h2 {
+  font-size: 32px;
+}
+
+.part-two > h3 {
+  font-size: 26px;
+}
+
+.align {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
