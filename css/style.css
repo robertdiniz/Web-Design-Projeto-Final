@@ -122,14 +122,9 @@ section {
   flex-direction: column;
   width: 100%;
   background: rgb(0,0,0);
-  background: linear-gradient(180deg,#2196f3, #000038);
+  background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(154,151,151,1) 100%);
   padding: 32px;
   padding-bottom: 200px;
-}
-
-a:hover{
-  opacity: 70%;
-  color: red;
 }
 
 .buy {
@@ -160,7 +155,8 @@ a:hover{
   align-items: center;
   width: 100%;
 }
-
+.footer{
+    
   width: 100%;
   padding: 60px;
   background-image: linear-gradient( to left, #2196f3,blue, #000038 );
@@ -168,4 +164,3 @@ a:hover{
   display: flex;
   justify-content: space-between;
 }
-
