@@ -161,8 +161,6 @@ a:hover{
   width: 100%;
 }
 
-/* FOOTER */
-.footer{
   width: 100%;
   padding: 60px;
   background-image: linear-gradient( to left, #2196f3,blue, #000038 );
@@ -171,11 +169,3 @@ a:hover{
   justify-content: space-between;
 }
 
-.footerinicial{
-  width: 100%;
-  padding: 60px;
-  background-color: #2196f3;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-}
