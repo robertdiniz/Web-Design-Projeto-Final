@@ -1,0 +1,152 @@
+/* DISCIPLINAS */
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .disc {
+    display: grid;
+    grid-template-columns: 200px 100%;
+  
+  }
+  
+  .title-disc {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 200px;
+  }
+  
+  /* SEÇÃO FILTRAR */
+  .filtrar {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 16px;
+  }
+  
+  .filter {
+    border: 1px solid black;
+    padding: 16px;
+    background-color: white;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .filter > p {
+    font-weight: bold;
+  }
+  
+  .filter > img {
+    margin-right: 8px;
+  }
+  
+  .filter:hover {
+      cursor: pointer;
+  }
+
+  .classificar {
+    border: 1px solid black;
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .classificar > img {
+    margin-left: 8px;
+  }
+
+  .classificar:hover {
+      cursor: pointer;
+  }
+  
+  .title-classificar {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .desc-classificar {
+    opacity: 50%;
+  }
+  
+  .filtros {
+    width: 200px;
+    height: 256px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 8px 0;
+  }
+  /* FIM DE FILTRAR */
+  
+  .form-checks{
+    margin-bottom: 4px;
+  }
+  
+  .show-more {
+    margin-bottom: 8px;
+  }
+  
+  .card-lesson {
+    height: 160px;
+    background-color: white;
+    padding: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    display: flex;
+  }
+  
+  .alinhar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .informs {
+    margin-left: 16px;
+  }
+  
+  .media-player-video {
+    background-color: #dadada;
+    width: 216px;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .player {
+    width: 128px;
+  }
+  
+  .desc-disciplinas {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  
+  .name-teacher {
+    opacity: 50%;
+    font-size: 14px;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .discount {
+    opacity: 50%;
+    text-decoration: line-through;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .teste {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }

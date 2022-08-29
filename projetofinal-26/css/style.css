@@ -103,7 +103,7 @@ section {
   margin-top: 32px;
   width: 232px;
   height: 250px;
-  background-color: #DBDBDB;
+  background-color: white;
   display: flex;
   flex-direction: column;
   border-radius: 16px;
@@ -156,105 +156,3 @@ section {
   width: 100%;
 }
 
-/* DISCIPLINAS */
-
-.center {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.disc {
-  display: grid;
-  grid-template-columns: 200px 100%;
-
-}
-
-.title-disc {
-  text-align: center;
-  margin-top: 16px;
-  margin-bottom: 200px;
-}
-
-.filtrar {
-  display: flex;
-  justify-content: left;
-  margin-bottom: 16px;
-}
-
-.filter {
-  border: 1px solid black;
-  padding: 16px 32px 16px 64px;
-  background-color: white;
-  margin-right: 16px;
-}
-
-.classificar {
-  border: 1px solid black;
-  background-color: white;
-  padding: 16px 64px 16px 32px;
-}
-
-.filtros {
-  width: 200px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding: 8px 0;
-}
-
-.form-checks{
-  margin-bottom: 4px;
-}
-
-.show-more {
-  margin-bottom: 8px;
-}
-
-.card-lesson {
-  height: 160px;
-  background-color: white;
-  padding: 16px;
-  margin-left: 16px;
-  display: flex;
-}
-
-.alinhar {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.informs {
-  margin-left: 16px;
-}
-
-.media-player-video {
-  background-color: #dadada;
-  width: 216px;
-  height: 128px;
-  display: flex;
-  justify-content: center;
-}
-
-.player {
-  width: 128px;
-}
-
-.desc-disciplinas {
-  margin-top: 4px;
-  margin-bottom: 4px;
-}
-
-.name-teacher {
-  opacity: 50%;
-  font-size: 14px;
-}
-
-.price {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.discount {
-  opacity: 50%;
-  text-decoration: line-through;
-}
