@@ -20,7 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: var(--cor--black);
+  background-image: linear-gradient( to left, #2196f3,blue, #000038 );
 }
 
 /* LOGO */
