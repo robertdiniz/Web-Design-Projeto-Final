@@ -66,6 +66,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
+        width: 100%;
     }
 
     .align {
@@ -109,18 +110,47 @@
     }
 
     .disc {
+
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+
+    .column-card{
+        width: 90%;
     }
 
     .column {
         width: 90%;
     }
 
+    .alinhar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-lesson {
+        
+    }
+
+
     /* CADASTRO */
     .main {
         width: 90%;
         margin-bottom: 64px;
+    }
+
+    /* aula */
+    .grade {
+        width: 100vw;
+        height: 50vw;
+    }
+
+    .comentario-container{
+        display: none;
     }
 
 }

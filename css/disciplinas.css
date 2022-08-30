@@ -25,6 +25,7 @@
   margin-bottom: 200px;
 }
 
+
 /* SEÇÃO FILTRAR */
 .filtrar {
   display: flex;
@@ -150,6 +151,11 @@
 }
 
 .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-card{
   display: flex;
   flex-direction: column;
 }
