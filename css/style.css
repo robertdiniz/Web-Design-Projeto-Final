@@ -68,7 +68,7 @@ body {
 /* INDEX */
 /* MAIN */
 
-main {
+.background-school {
   background-image: url(../img/school.png);
   background-size: cover;
 }
