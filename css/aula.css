@@ -19,6 +19,7 @@
 }
 
 .grade {
+    width: 200px;
     height: 70vh;
     padding: 16px 16px 0 16px;
     background-color: white;
@@ -54,8 +55,25 @@
 }
 
 .aula-informs {
+    margin-left: 16px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     row-gap: 16px;
+}
+
+/* COMENTÁRIOS */
+
+.comentario-container {
+    margin-top: 64px;
+    margin-left: 64px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 16px;
+}
+
+.comentario {
+    display: flex;
 }
