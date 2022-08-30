@@ -20,7 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: linear-gradient( to left, #2196f3,blue, #000038 );
+  background-color: #2196f3;
 }
 
 /* LOGO */
@@ -103,11 +103,15 @@ section {
   margin-top: 32px;
   width: 232px;
   height: 250px;
-  background-color: white;
+  background-color: rgba(167, 167, 167, 0.486);
   display: flex;
   flex-direction: column;
   border-radius: 16px;
   padding: 32px;
+  
+}
+.part-two > h3, p{
+  color: white;
 }
 
 .part-two > p {
@@ -122,13 +126,13 @@ section {
   flex-direction: column;
   width: 100%;
   background: rgb(0,0,0);
-  background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(154,151,151,1) 100%);
+  background-image: linear-gradient( to bottom, #2196f3,blue, #000038 );
   padding: 32px;
   padding-bottom: 200px;
 }
 
 .buy {
-  background-color: black;
+  background-color: #F28705;
   color: white;
   border-radius: 8px;
   text-align: center;
@@ -139,6 +143,10 @@ section {
 
 .buy > p {
   font-weight: bold;
+}
+.buy:hover{
+  opacity: 80%;
+  transition: 0.3s;
 }
 
 .plans > h2 {
