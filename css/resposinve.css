@@ -153,4 +153,30 @@
         display: none;
     }
 
+    /* LOGIN */
+    #loginpagina {
+        width: 100%;
+    }
+
+    .arealogin{
+        width: 100%;
+    }
+
+    .login {
+        width: 100%;
+    }
+
+    #loginemail{
+        width: 80%;
+    }
+
+    #loginsenha{
+        width: 80%;
+    }
+
+    #account {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
