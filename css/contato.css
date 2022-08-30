@@ -1,9 +1,20 @@
+
 .main_contato{
-    width: 80%;
+    width: 100%;
+    display: flex;
+    margin-left: 48px;
+}
+.main_contato img{
+    width: 480px;
+    right: 10px;
+    top: 160px;
+    position: absolute;
+    margin-left: 48px;
 }
 .section_contato{
-    margin: 20px 0 0 10px;
     flex-direction: column;
+    margin-right: 24px;
+    margin-left: 48px;
 }
 
 #span_contato{
@@ -11,9 +22,24 @@
     color: gray;
     display: flex;
     flex-direction: column;
+    margin-left: 48px;
 }
 #seach_contato{
     border-radius: 20px;
-    padding: 15px;
+    padding: 10px;
     width: 400px;
+    border: none;
 }
+.section2_contato{
+    display:flex;
+    flex-direction: row;
+    margin: 16px 16px 0 48px;
+}
+.section3_contato{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background-color:#2196f3;
+
+}
+   
