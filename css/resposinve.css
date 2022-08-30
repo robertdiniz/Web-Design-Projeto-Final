@@ -1,0 +1,10 @@
+@media screen and (max-width: 1050px) {
+    .container {
+        display: flex;
+    }
+
+    #dropdown-2 {
+        display: none;
+    }
+}
+
