@@ -1,5 +1,9 @@
 @media screen and (max-width: 500px) {
 
+    .form {
+        margin-bottom: 8px;
+    }
+
     /* INDEX */
 
     .container {
@@ -40,6 +44,10 @@
         flex-wrap: wrap;
     }
 
+    .part-two {
+        margin-bottom: 32px;
+    }
+
     .part-one>img {
         width: 100%;
     }
@@ -78,11 +86,36 @@
 
 
     /* DISCIPLINAS */
+
     .center {
-        width: 0;
-        margin: 0;
+        width: 100%;
     }
 
+    .title-disc {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .filtrar {
+        display: flex;
+        margin-bottom: 16px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .filtros {
+        display: none;
+    }
+
+    .disc {
+        display: flex;
+        justify-content: center;
+    }
+
+    .column {
+        width: 90%;
+    }
 
     /* CADASTRO */
     .main {
