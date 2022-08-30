@@ -64,6 +64,17 @@
         display: flex;
         flex-direction: column;
     }
+   /*CONTATO*/
+   h1, p{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .main_contato section img{
+     width: 200px;
+     position: none;
+    }
+
+
 
 
     /* DISCIPLINAS */

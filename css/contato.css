@@ -1,15 +1,20 @@
-
+main{
+    display: flex;
+    flex-direction: column;
+}
 .main_contato{
+   display: flex;
+   flex-direction: column;
+   
+}
+.main2_contato{
     width: 100%;
     display: flex;
     margin-left: 48px;
 }
-.main_contato img{
+main img{
     width: 480px;
     right: 10px;
-    top: 160px;
-    position: absolute;
-    margin-left: 48px;
 }
 .section_contato{
     flex-direction: column;
@@ -33,7 +38,7 @@
 .section2_contato{
     display:flex;
     flex-direction: row;
-    margin: 16px 16px 0 48px;
+    margin: 16px 16px 0 0;
 }
 .section3_contato{
     display: flex;
