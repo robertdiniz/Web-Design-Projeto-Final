@@ -2,6 +2,26 @@
   --cor--black: black;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F28705;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1e1e1e;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +46,7 @@ body {
 /* LOGO */
 .container>a>img {
   width: 72px;
+  margin-left: 6vw;
 }
 
 /* FORM */
@@ -137,7 +158,6 @@ p {
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: ;
   background: rgb(242, 135, 5);
   background: radial-gradient(circle, rgba(242, 135, 5, 1) 56%, rgba(221, 124, 6, 1) 100%);
   padding: 32px;
@@ -182,11 +202,40 @@ p {
 }
 
 .footer {
-
   width: 100%;
   padding: 60px;
   background-color: #1e1e1e;
   color: white;
   display: flex;
   justify-content: space-between;
+}
+
+.footer-1>p {
+  color: white;
+  width: 15em;
+  text-align: justify;
+}
+
+.footer-2>hr {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.footer-3>p {
+  color: white;
+  opacity: 80%;
+}
+
+.footer-3>hr {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.footer-4 {
+  display: flex;
+  align-items: center;
+}
+
+.footer-4>p {
+  color: white;
 }
