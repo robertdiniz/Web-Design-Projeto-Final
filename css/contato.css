@@ -38,7 +38,6 @@ main img{
 .section2_contato{
     display:flex;
     flex-direction: row;
-    margin: 16px 16px 0 0;
 }
 .section3_contato{
     display: flex;
