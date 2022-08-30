@@ -1,0 +1,63 @@
+#feed {
+    display: block;
+}
+
+.feed-title {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.feed-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+}
+
+.card-feed {
+    background-color: white;
+    padding: 16px;
+}
+
+.align-thumb-down {
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail {
+    background-color: #dadada;
+    width: 432px;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player {
+    width: 128px;
+}
+
+.down-thumb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.conta {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.conta-align {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.teacher {
+    font-weight: bold;
+}
+
+.horas {
+    color: blue;
+}
