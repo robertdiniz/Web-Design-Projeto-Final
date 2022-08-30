@@ -12,6 +12,22 @@
         margin: 0;
     }
 
+    #search {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .container>nav>ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container>nav>ul>li {
+        margin-bottom: 8px;
+    }
+
     section {
         display: flex;
         align-items: center;
@@ -20,5 +36,42 @@
 
     .part-one {
         width: 80vw;
+        display: flex;
+        flex-wrap: wrap;
     }
+
+    .part-one>img {
+        width: 100%;
+    }
+
+    .call-two {
+        text-align: justify;
+    }
+
+    .plans {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+
+    /* DISCIPLINAS */
+    .center {
+        width: 0;
+        margin: 0;
+    }
+
+
+    /* CADASTRO */
+    .main {
+        width: 90%;
+        margin-bottom: 64px;
+    }
+
 }
