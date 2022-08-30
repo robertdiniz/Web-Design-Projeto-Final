@@ -77,3 +77,20 @@
 .comentario {
     display: flex;
 }
+
+.resposta {
+    margin-top: 8px;
+    margin-left: 64px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.responder {
+    opacity: 50%;
+    color: black;
+}
+
+.mostrar-mais-comentarios {
+    color: blue;
+}
